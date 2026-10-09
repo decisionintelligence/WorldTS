@@ -1,0 +1,39 @@
+# Local datasets and pretrained weights are machine-specific, not source code.
+/DAG-bench/dataset/
+/TimeMMD-bench/data/
+/TimeMMD-bench/language_model/
+/MMSP-bench/analysis/
+/MMSP-bench/unica_datasets/
+/MMSP-bench/pretrained_models/
+
+# Generated experiment artifacts.
+**/result/
+**/results/
+**/results*/
+**/checkpoint/
+**/checkpoints*/
+**/runs/
+**/wandb/
+**/exports/
+**/logs/
+**/artifacts/
+*.pt
+*.pth
+*.ckpt
+
+# Documents and temporary files outside the reproduction framework.
+*.pdf
+*.xls
+*.xlsx
+*.html
+*.html.*
+*.png
+!/figures/overview.png
+!/figures/results.png
+!/figures/overview.pdf
+**/paper_writing/
+**/tests/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/

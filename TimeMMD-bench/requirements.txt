@@ -1,0 +1,11 @@
+pandas==2.2.3
+torch==2.5.0
+numpy==2.1.2
+scikit-learn==1.6.1
+patool==4.0.1
+tqdm==4.67.1
+sktime==0.37.1
+reformer-pytorch==1.4.4
+transformers==4.52.4
+matplotlib==3.10.3
+pynvml==12.0.0

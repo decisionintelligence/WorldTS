@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.xlsx
+*html
+*.html.1
+*.html.2
+*.html.*
+wget-log*
+
+# Experiment outputs
+/A_result/
+/checkpoints*/
+/results*/
+/runs/
+/test_results/
+/result_clip*
+
+# Local experiment utilities and launchers
+/scripts/add_vot_h12_sheet.py
+/scripts/run_codyjepa_best_h12_frozen.sh
+!/scripts/run_codyjepa_best_h12_frozen.sh
+/scripts/run_codyjepa_best_h12_frozen_4h.py
+/scripts/run_worldts_ablation_no_recon_health_h12.sh
+/scripts/run_worldts_sensitivity_health_h12.sh
+/scripts/run_worldts_symmetric_patch_health_h12.sh
+
+# Local pretrained model files
+/language_model/openai-community/
